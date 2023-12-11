@@ -9,12 +9,10 @@ import aboutimage1 from '../../src/images/image3.png'
 import one from '../../src/images/one.png'
 import two from '../../src/images/two.png'
 import three from '../../src/images/three.png'
-import Modal from '../Modal';
 import Card from 'react-bootstrap/Card';
 import Grid from '@mui/material/Grid';
 import port1 from '../../src/images/port1.jpg'
 import port2 from '../../src/images/port2.jpg'
-
 import port3 from '../../src/images/port3.jpg'
 import Modalex from '../Modal';
 
@@ -66,10 +64,10 @@ function Home() {
 
 
 
-        <div className="content" style={{ color: "black", marginLeft: '55%', width: '27%', paddingTop: '4%', lineHeight: '18px' }}>
+        <div className="content" style={{ color: "black", marginLeft: '55%', paddingTop: '4%', lineHeight: '18px' }}>
           <h4 className='choose' style={{ color: 'black', fontWeight: 'bolder', fontSize: '26px' }}>Why Choose Us</h4>
           <Stack spacing={2} className='choose'>
-            <p className='choose' style={{ fontSize: '13px', color: '#424949', justifyContent: 'center', marginTop: '2%' }}> Besides great interior design, there are lots of reasons to choose Interia. Here are some of the most popular ones.</p>
+            <p className='choose' style={{ fontSize: '13px', color: '#424949', marginTop: '2%' }}> Besides great interior design, there are lots of reasons to choose Interia. Here are some of the most popular ones.</p>
             <span ><h6 style={{ fontWeight: 'bolder' }}><img src={one} alt="" className='num' />Professional Team</h6><span style={{ fontSize: '13px', color: '#424949' }}>Our team includes only the best decorators and interior designers in the industry</span></span>
             <span><h6 style={{ fontWeight: 'bolder' }}><img src={two} alt="" className='num' />Unusual Ideas</h6><span style={{ fontSize: '13px', color: '#424949' }}>Our designers generate various yet always original ideas that will surely fit your needs.</span></span>
             <span><h6 style={{ fontWeight: 'bolder' }}><img src={three} alt="" className='num' />Made with Respect</h6><span style={{ fontSize: '13px', color: '#424949' }}>All our work is built around respect to our clients, great service, and creativity.</span></span>
@@ -96,15 +94,20 @@ function Home() {
 
 
 
-      {/* Portfolio */}
-      <h4></h4>
 
-      <div className="portfolio" id='portfolio' style={{ height: '100vh', backgroundColor: 'white', color: 'black'}}>
+      
+
+
+      {/* Portfolio */}
+      
+
+      <div className="portfolio" id='portfolio' style={{ backgroundColor: 'white', color: 'black'}}>
 
 
 
         <h4 style={{ fontWeight: 'bolder', marginLeft: '10%', paddingTop: '5%', color: 'black', fontSize: '28px' }}>Our Portfolio</h4>
-        <div className="port" style={{ marginLeft: '10%', marginTop: '6%' }}>
+        <p style={{fontSize:'13px', marginLeft:'10%',marginTop:'2%'}}>All our projects are unique and designed to last. Take a look at our recent works to find it out for yourself.</p>
+        <div className="port" style={{ marginLeft: '10%', marginTop: '5%' }}>
 
 
           <Grid container spacing={2} className='cardres'>
@@ -153,16 +156,7 @@ function Home() {
 
         </div>
 
-
-
-
-
-
       </div >
-
-
-
-
 
     </>
   )

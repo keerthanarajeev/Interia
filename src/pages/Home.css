@@ -1,12 +1,13 @@
 .background{
     position: absolute;
-    /* right: 0; */
     object-fit: cover;
     margin-top: 4%;
     margin-left: 33%;
     z-index: -1;
     width: 60%;
 }
+body {
+    overflow-x: hidden;  }
 .image img{
     width: 60%;
     height: 90vh; 
@@ -14,11 +15,8 @@
 
 .content-head{
     width: 76%;
-    /* position: absolute; */
     margin-top: 35px;
-    margin-left: 8px;
-/* background-color: azure; */
-}
+    margin-left: 8px;}
 .content-box{
     position: absolute;
     margin-top: 4%;
@@ -54,8 +52,8 @@
    
 
 }
-.portfolio{margin-top: -1%;}
-.about .content{width: 100%; }
+.portfolio{margin-top: -1%;height: 100vh;}
+.about .content{width: 27%; margin-left: '55%';  padding-top: '4%' }
 .aboutimage{
     margin-left: 10%;
     width: 20%;
@@ -90,62 +88,17 @@
     transform: translateY(-20px);
   }
   .img-card {
-   
-   
     transition: transform 0.3s ease-out;
-    /* z-index: 2; */
   }
-  .card:hover > .img {
-    transition: opacity 0.6s ease-out;
-    opacity: 0.6;
-  }
-@media (max-width: 600px ) {
-
-    .cardres{
-        display: list-item
-    
-    }
-    .portfolio{
-         height: 200vh;
-         
-      }
-    
-    .cardport{
-        width: 10rem;
-    }
-   .card{width: 7rem;}
-    }
-@media (max-width: 600px ) {
-
-    .content-box{
-        width: 100%;
-        background: transparent;
-    
-    }
-    .image img{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .mode{margin-left: -100%;}
-    }
-    @media (max-width: 600px ) {
-
-        .abimage
-        
-        {
-           display: none;              
-        }
-       .choose{
-         width: 100%;
-         margin-left: -100%;
-        margin-top: 100%;
-        }
-        .about{
-    margin-top: 150%; 
-    height: auto;
-    }
   
-    
-    }
+@media (max-width: 600px ) {.cardres{display: list-item; margin-top: 5%;}.portfolio{height: 150vh;} 
+                            .card{width: 7rem; margin-left: 5%; margin-bottom: 8%; margin-top: 14%;}
+                           }
+@media (max-width: 600px ) {.content-box{ width: 100%; background: transparent;} .mode{margin-left: -100%;}
+                            .image img{ width: 100%; margin-left: 0; margin-right: 0; }
+                           }
+@media (max-width: 600px ) {.abimage{display: none;}.choose{width: 100%;margin-left: -100%;margin-top: 100%;}
+                            .about{ margin-top: 150%;  height: 90vh; } .about .content{width: 100%; padding-left: 35%; padding-top: 40px;}
+                            .choose{margin-top: 25%;}
+                           }
 

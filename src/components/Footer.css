@@ -8,5 +8,8 @@
         margin-left: 3%;        
         
         padding-top: 90%;
+    }.fpara{margin-top:5%; margin-left:40%}
     }
-    }
+
+    @media (max-width: 600px ) {.footer{padding-top: 20%;} .fpara{margin-left: 5%; margin-right: 5%;}
+                           }

@@ -52,7 +52,7 @@ YouTube</span>
 <hr style={{width:'27%', marginLeft:'18%'}}/> <p className='text-warning' style={{fontWeight:'bold',fontSize:'15px',marginLeft:'3%',marginTop:'5px'}}>INTERIA</p> <hr style={{width:'27%',marginLeft:'2%'}}/>
 </div>
 
-<p style={{marginTop:'5%',marginLeft:'40%'}}>©  2023 Interia. All Rights Reserved. Design by Keerthana</p>
+<p className='fpara' style={{marginTop:'5%',marginLeft:'40%'}}>©  2023 Interia. All Rights Reserved. Design by Keerthana</p>
     </div>
     
     </>
