@@ -1,0 +1,17 @@
+/* *{
+    background-image: url("https://www.melbournehomeshow.com.au/wp-content/uploads/2022/02/Home-Trends-2022-Blog-Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+} */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+
+    font-family: 'Roboto', sans-serif;}

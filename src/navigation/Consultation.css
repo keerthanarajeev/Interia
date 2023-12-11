@@ -1,0 +1,51 @@
+.consultimage{
+    background-image: url('../images/consult.png');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;	
+	  width: 100%;
+
+}
+
+.consultform {
+    position: absolute;
+    margin-top: -3%;
+    bottom: 2%;
+    margin-left: 55%;
+    background-color: #262424;
+    height: 80%;
+    width: 35%;
+    padding: 30px;
+    
+    
+ }
+
+
+.contents{
+    position: absolute;
+    color: white;
+    margin-top: -31%;
+    /* backdrop-filter: blur(3px); */
+    background-color: black;
+   opacity: 0.6;
+   padding: 16px;
+}
+
+@media (max-width: 600px ) {
+
+    .consultform {
+     
+        margin-left: 10%;
+        background-color: #262424;
+        height: 470px;
+        width: 80%;
+        padding: 30px;
+        margin-bottom: 100px;
+        
+        
+     }
+     .contents{display: none;}
+   
+    }

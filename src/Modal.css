@@ -1,0 +1,10 @@
+.closebtn{
+    position: fixed;
+}
+.formmodel{
+    margin-top: -95%;
+    margin-left: -50%;
+    width: 300px;
+    height: 800px;
+}
+
